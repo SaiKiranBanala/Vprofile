@@ -40,7 +40,7 @@ public class UserController {
         if (bindingResult.hasErrors()) {
             return "registration";
         }
-        System.out.println("User PWD is "+userForm.getPassword());
+        System.out.println("User PWD:"+userForm.getPassword());
         userService.save(userForm);
 
         securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
