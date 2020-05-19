@@ -1,6 +1,5 @@
 package com.visualpathit.account.controller;
 
-
 import com.visualpathit.account.model.User;
 import com.visualpathit.account.service.SecurityService;
 import com.visualpathit.account.service.UserService;
